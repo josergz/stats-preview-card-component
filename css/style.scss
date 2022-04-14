@@ -6,7 +6,7 @@ $veryDarkBlue: hsl(233, 47%, 7%);
 $darkDdesaturatedBlue: hsl(244, 38%, 16%);
 //accent
 $softViolet: hsl(277, 64%, 61%);
-//-----------------NEUTRAL-------------------------
+//-----------------NEUTRAL--------------------------
 //main heading, stats
 $white: hsl(0, 0%, 100%);
 //main paragraph
@@ -89,22 +89,29 @@ body {
 
 			.right {
 				width: 50%;
-				background: $softViolet;
+				background: #61089c;
+
 				border-radius: 0px 8px 8px 0px;
 				-webkit-border-radius: 0px 8px 8px 0px;
 				-moz-border-radius: 0px 8px 8px 0px;
 				-ms-border-radius: 0px 8px 8px 0px;
 				-o-border-radius: 0px 8px 8px 0px;
+
+				.background {
+					width: 100%;
+				}
 				img {
+					filter: opacity(0.4) drop-shadow(0 0 0 #422257) brightness(100%);
+
 					width: 100%;
 					height: 100%;
-					filter: opacity(0.4) drop-shadow(0 0 0 $softViolet);
-					-webkit-filter: opacity(0.4) drop-shadow(0 0 0 $softViolet);
 					border-radius: 0px 8px 8px 0px;
 					-webkit-border-radius: 0px 8px 8px 0px;
 					-moz-border-radius: 0px 8px 8px 0px;
 					-ms-border-radius: 0px 8px 8px 0px;
 					-o-border-radius: 0px 8px 8px 0px;
+					-webkit-filter: opacity(0.4) drop-shadow(0 0 0 #422257)
+						brightness(100%);
 				}
 			}
 		}
