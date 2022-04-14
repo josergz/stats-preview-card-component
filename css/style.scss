@@ -1,0 +1,112 @@
+// Colors
+//-----------------PRIMARY-----------------------
+//main background
+$veryDarkBlue: hsl(233, 47%, 7%);
+//card background
+$darkDdesaturatedBlue: hsl(244, 38%, 16%);
+//accent
+$softViolet: hsl(277, 64%, 61%);
+//-----------------NEUTRAL-------------------------
+//main heading, stats
+$white: hsl(0, 0%, 100%);
+//main paragraph
+$slightlyTransparentWhiteMain: hsla(0, 0%, 100%, 0.75);
+//stat headings
+$slightlyTransparentWhiteStat: hsla(0, 0%, 100%, 0.6);
+//-------------------------------------------------
+//
+body {
+	background: $veryDarkBlue;
+
+	main {
+		width: 100%;
+		height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		section {
+			border-radius: 8px;
+
+			background: $darkDdesaturatedBlue;
+			width: 80%;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+
+			.left {
+				width: 50%;
+				.leftContainer {
+					margin: auto;
+					padding: 43px;
+					width: 70%;
+					strong {
+						color: $softViolet;
+					}
+					h1 {
+						font-family: 'Inter', sans-serif;
+						font-weight: 700;
+						color: $white;
+					}
+					p {
+						width: 90%;
+						font-size: 13px;
+						font-family: 'Inter', sans-serif;
+						font-weight: 400;
+						color: $slightlyTransparentWhiteMain;
+						line-height: 25px;
+					}
+					.numberContainer {
+						h2 {
+							color: $white;
+							font-family: 'Inter', sans-serif;
+							font-weight: 700;
+						}
+						display: flex;
+						flex-direction: row;
+						justify-content: flex-start;
+						.one,
+						.two,
+						.three {
+							margin-top: 3rem;
+							margin-right: 3.5em;
+							h2 {
+								padding: 0;
+								margin: 0;
+								margin-bottom: 5px;
+							}
+							p {
+								padding: 0;
+								margin: 0;
+								color: $slightlyTransparentWhiteStat;
+								font-family: 'Lexend Deca', sans-serif;
+								font-weight: 400;
+								font-size: 12px;
+							}
+						}
+					}
+				}
+			}
+
+			.right {
+				width: 50%;
+				background: $softViolet;
+				border-radius: 0px 8px 8px 0px;
+				-webkit-border-radius: 0px 8px 8px 0px;
+				-moz-border-radius: 0px 8px 8px 0px;
+				-ms-border-radius: 0px 8px 8px 0px;
+				-o-border-radius: 0px 8px 8px 0px;
+				img {
+					width: 100%;
+					height: 100%;
+					filter: opacity(0.4) drop-shadow(0 0 0 $softViolet);
+					-webkit-filter: opacity(0.4) drop-shadow(0 0 0 $softViolet);
+					border-radius: 0px 8px 8px 0px;
+					-webkit-border-radius: 0px 8px 8px 0px;
+					-moz-border-radius: 0px 8px 8px 0px;
+					-ms-border-radius: 0px 8px 8px 0px;
+					-o-border-radius: 0px 8px 8px 0px;
+				}
+			}
+		}
+	}
+}
