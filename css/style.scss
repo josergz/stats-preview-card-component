@@ -26,7 +26,6 @@ body {
 		align-items: center;
 		section {
 			border-radius: 8px;
-
 			background: $darkDdesaturatedBlue;
 			width: 80%;
 			display: flex;
@@ -97,9 +96,6 @@ body {
 				-ms-border-radius: 0px 8px 8px 0px;
 				-o-border-radius: 0px 8px 8px 0px;
 
-				.background {
-					width: 100%;
-				}
 				img {
 					filter: opacity(0.4) drop-shadow(0 0 0 #422257) brightness(100%);
 
@@ -112,6 +108,73 @@ body {
 					-o-border-radius: 0px 8px 8px 0px;
 					-webkit-filter: opacity(0.4) drop-shadow(0 0 0 #422257)
 						brightness(100%);
+				}
+			}
+		}
+	}
+}
+
+// Responsive design
+
+@media (max-width: 576px) {
+	body {
+		main {
+			margin-top: 25px;
+			margin-bottom: 25px;
+			section {
+				width: 90%;
+				margin: 0;
+				padding: 0;
+				flex-direction: column-reverse;
+
+				.left {
+					width: 100%;
+					margin-top: 25px;
+
+					.leftContainer {
+						text-align: center;
+						margin: auto;
+						width: 90%;
+						padding: 0px;
+						h1 {
+							width: 100%;
+						}
+						p {
+							width: 70%;
+							text-align: center;
+							margin: auto;
+						}
+
+						.numberContainer {
+							margin: 25px auto;
+							flex-direction: column;
+							align-items: center;
+							justify-content: center;
+
+							.one,
+							.two,
+							.three {
+								h2 {
+									margin-bottom: 0;
+								}
+								margin: 15px;
+							}
+						}
+					}
+				}
+				.right {
+					width: 100%;
+					height: 250px;
+					border-radius: 8px 8px 0px 0px;
+					-webkit-border-radius: 8px 8px 0px 0px;
+					-moz-border-radius: 8px 8px 0px 0px;
+					-ms-border-radius: 8px 8px 0px 0px;
+					-o-border-radius: 8px 8px 0px 0px;
+
+					img {
+						border-radius: 8px 8px 0px 0px;
+						object-fit: cover;
+					}
 				}
 			}
 		}
