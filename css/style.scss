@@ -87,6 +87,9 @@ body {
 			}
 
 			.right {
+				.imageMobile {
+					display: none;
+				}
 				width: 50%;
 				background: #61089c;
 
@@ -171,7 +174,12 @@ body {
 					-ms-border-radius: 8px 8px 0px 0px;
 					-o-border-radius: 8px 8px 0px 0px;
 
-					img {
+					.image {
+						display: none;
+					}
+					.imageMobile {
+						display: flex;
+						width: 100%;
 						border-radius: 8px 8px 0px 0px;
 						object-fit: cover;
 					}
