@@ -29,12 +29,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](.design/preview.jpg)
+![](/design/preview.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution repository](https://github.com/josergz/stats-preview-card-component)
+- Live Site URL: [Solution Live Site](https://your-live-site-url.com)
 
 ## My process
 
