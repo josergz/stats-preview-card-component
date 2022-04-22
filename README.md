@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution repository](https://github.com/josergz/stats-preview-card-component)
-- Live Site URL: [Solution Live Site](https://your-live-site-url.com)
+- Live Site URL: [Solution Live Site](https://stats-preview-card-component-xi-seven.vercel.app)
 
 ## My process
 
@@ -47,7 +47,7 @@ Users should be able to:
 
 ### What I learned
 
-With this challenge you can test my skills, I tried to use the correct semantics of html, using sass I declared color variables that I used throughout the project, finally with flexbox I worked to accommodate the elements and to show the mobile version.
+With this challenge I was able to test my skills, I tried to use the correct html semantics, using sass I declared color variables that I used throughout the project, finally with flexbox I worked to arrange the elements and display the mobile version.
 
 ### Continued development
 
